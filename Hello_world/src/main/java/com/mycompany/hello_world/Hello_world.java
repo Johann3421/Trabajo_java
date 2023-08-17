@@ -39,6 +39,7 @@ public class Hello_world {
                 return
                 
         }
+        System.out.println("Resultado: "+n1+" Operacion "+n2+" = "+resultado);
         
     
     }
