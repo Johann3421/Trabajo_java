@@ -22,24 +22,23 @@ public class Hello_world {
         System.out.println("Selecciona una operacion: (1/2)");
         int opcion = scanner.nextInt();
         System.out.println("Ingrese el primer numero: ");
-        double n1= scanner.nextDouble();
+        double numero1= scanner.nextDouble();
         System.out.println("Ingrese el Segundo Numero: ");
-        double n2= scanner.nextDouble();
+        double numero2= scanner.nextDouble();
         double resultado=0.0;
         
         switch (opcion){
             case 1:
-                resultado=n1+n2;
+                resultado=numero1+numero2;
                 break;
             case 2:
-                resultado=n1-n2;
+                resultado=numero1-numero2;
                 break;
             default:
                 System.out.println("Opcion no valida");
-                return
-                
+                return;
         }
-        System.out.println("Resultado: "+n1+" Operacion "+n2+" = "+resultado);
+        System.out.println("Resultado: "+numero1+" Operacion "+numero2+" = "+resultado);
         
     
     }
